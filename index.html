@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Rock, Paper, Scissors, Lizzard, Spock</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/game.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script src="js/player.js"></script>
+		<script src="js/game.js"></script>
+    </head>
+	<body>
+    	<div id="mainBody">
+			<table id="gameBoard">
+				<tr>
+					<td class="centered" colspan="7">
+						<span id="gameName">Game Name</span>
+					</td>
+				</tr>
+				<tr>
+					<td class="centered" colspan="7">
+						<span id="gameStatus">Click the button below to start</span>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3" class="centered">
+						<span id="player1Name">Player 1 Name</span>
+					</td>
+					<td class="centered" rowspan="3">
+						<button id="gameController">New Game</button>
+					</td>
+					<td colspan="3" class="centered">
+						<span id="player2Name">Player 2 Name</span>
+					</td>
+				</tr>
+				<tr>
+					<td class="gameChoice"colspan="3">
+						<div id="player1Choice" class="rock"></div>
+					</td>
+					<td class="gameChoice"colspan="3">
+						<div id="player2Choice" class="paper"></div>
+					</td>
+				</tr>
+				<tr>
+					<td>Wins: <span id="player1Wins">0</span></td>
+					<td>Losses: <span id="player1Losses">0</span></td>
+					<td>Rate: <span id="player1WinRate">0</span></td>
+					<td>Wins: <span id="player2Wins">0</span></td>
+					<td>Loses: <span id="player2Losses">0</span></td>
+					<td>Rate: <span id="player2WinRate">0</span></td>
+				</tr>
+			</table>
+    	</div>
+	</body>
+	<script src="js/game_play.js"></script>
+</html>

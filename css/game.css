@@ -1,0 +1,26 @@
+.rock { background: transparent url('../images/rpsls_image_map_8bit.png') 0 0 no-repeat; }
+.paper { background: transparent url('../images/rpsls_image_map_8bit.png') 0 -379px no-repeat; }
+.scissors { background: transparent url('../images/rpsls_image_map_8bit.png') 0 -758px no-repeat; }
+.lizard { background: transparent url('../images/rpsls_image_map_8bit.png') 0 -1137px no-repeat; }
+.spock { background: transparent url('../images/rpsls_image_map_8bit.png') 0 -1515px no-repeat; }
+.broken { background-position-x: -379px; }
+
+table#gameBoard { width: 100%; font-family: C64; border-bottom: 3px grey dotted; }
+table#gameBoard tr:first-child td { padding: 0px 0px 20px 0px; border-bottom: 3px grey dotted; }
+table#gameBoard tr:nth-child(2) td { padding: 10px 0px; color: #ffffff; font-size: 20px; border-bottom: 3px grey dotted; }
+table#gameBoard tr:nth-child(3) td:nth-child(odd) { padding: 20px 0px 0px 0px; color: #00FF00; font-size: 17px; }
+table#gameBoard tr:nth-child(3) td:nth-child(2) { width:200px; font-size: 17px; }
+table#gameBoard tr:nth-child(5) td { padding: 15px 0px; color: grey; font-size: 12px; border-top: 3px grey dotted; }
+table#gameBoard #gameController { font-family: C64; border: 3px grey dotted; min-width:50px; min-height:50px; background: transparent; color: red; }
+table#gameBoard td.gameChoice div { height:382px; width:382px; margin: 0 auto; }
+table#gameBoard #gameName:after { content: " - "; }
+table#gameBoard #gameName:before { content: " - "; }
+table#gameBoard #gameName { 
+	color: #FF0000;
+	font-size: 70px;
+	padding: 20px;
+	font-family: Arcade;
+	font-variant: small-caps;
+	text-shadow: 1px 1px 2px #666666;
+	margin: 15px 0px;
+}

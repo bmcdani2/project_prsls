@@ -1,0 +1,23 @@
+html, body { height:100%; width:100%; padding:0; margin:0; background:black; color:#ededed; }
+@font-face{ 
+	font-family: 'Arcade';
+	src: url('../fonts/tetro-webfont.eot');
+	src: url('../fonts/tetro-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/tetro-webfont.woff') format('woff'),
+	     url('../fonts/tetro-webfont.ttf') format('truetype'),
+	     url('../fonts/tetro-webfont.svg#webfont') format('svg');
+}
+@font-face {
+	font-family: "C64";
+	src: url("../fonts/C64_User_Mono_v1.0-STYLE.eot?#iefix") format('embedded-opentype'),
+		 url("../fonts/C64_User_Mono_v1.0-STYLE.woff") format("woff"),
+		 url("../fonts/C64_User_Mono_v1.0-STYLE.ttf") format('truetype');
+}
+
+div#mainBody { 
+	width:1024px; 
+	padding: 10px; 
+	margin:0 auto;
+	display: none;
+}
+.centered { text-align:center; }
